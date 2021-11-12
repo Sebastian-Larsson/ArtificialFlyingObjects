@@ -21,7 +21,7 @@ The school provides GPU servers for the students which can be accessed through t
 
 In order to use the GPU servers the IP of your network need to be whitelisted. It is possible to access the GPU servers within the school network. However, if you want to connect outside the school network, contact helpdesk to whitelist your IP found at whatismyip.com. 
 
-For CMD; Open CMD; Type: ssh -L 8888:localhost:8888 -p 2022 studentID@machinename.hh.se.
+For CMD; Open CMD; Type: ssh -L 8888:localhost:8888 -p 20022 studentID@machinename.hh.se.
 The parameter -L allow use to define a server port, local ip and port to access jupyter notebook. In this case, the port 8888. Replace studentID with the school username example: tmpaxr21 and machinename with a server. 
 
 - `ssh -L[desiredlocalport]:localhost:[desiredandfreedistantport] -p 20022 [studentID]@[machinename].hh.se`
