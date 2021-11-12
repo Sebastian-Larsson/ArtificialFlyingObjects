@@ -43,7 +43,7 @@ Then simply run the following commands:
 - Install the environment with `conda env create -f deeplearn.yml`
 - Do not forget to run `source activate` and `conda activate deeplearn` everytime you login
 ## Packages
-The required packages exists within the requirements.txt. 
+The required packages exists within the deeplearn.yml. 
 
 ## Tensorboard
 To user tensorboard we need to add an additional port to the SSH command. Tensorboard use port 6006 (default) so add ssh -L 6006:localhost:6006 8888:localhost:8888.
